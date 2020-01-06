@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1942,8 +1942,10 @@ __webpack_require__.r(__webpack_exports__);
 var _posts_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../posts.json */ "./posts.json", 1);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "/home/alrasyid/nextjs/pages/blog.js";
+var _jsxFileName = "C:\\Users\\bigcorps\\Documents\\LATHIF\\belajar-next-js\\pages\\blog.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 // const MyBlog = () => (
@@ -1954,29 +1956,42 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 // export default MyBlog
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
-}, "Blog"), __jsx("ul", {
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("title", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "Blog")), __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "Blog"), __jsx("ul", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
   },
   __self: undefined
 }, _babel_runtime_corejs2_core_js_object_entries__WEBPACK_IMPORTED_MODULE_0___default()(_posts_json__WEBPACK_IMPORTED_MODULE_2__).map((value, index) => __jsx("li", {
   key: index,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -1984,13 +1999,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
   as: 'blog/' + value[0],
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 24
   },
   __self: undefined
 }, value[1].title))))))); // hasil dari map adalah sbb, posts.json adalah object
@@ -2013,14 +2028,14 @@ module.exports = JSON.parse("{\"test\":{\"title\":\"test post\",\"content\":\"He
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!*****************************!*\
   !*** multi ./pages/blog.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/alrasyid/nextjs/pages/blog.js */"./pages/blog.js");
+module.exports = __webpack_require__(/*! C:\Users\bigcorps\Documents\LATHIF\belajar-next-js\pages\blog.js */"./pages/blog.js");
 
 
 /***/ }),
@@ -2143,6 +2158,17 @@ module.exports = require("core-js/library/fn/symbol/iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

@@ -8,9 +8,13 @@
 
 import posts from '../posts.json'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default () => (
 	<div>
+		<Head>
+			<title>Blog</title>
+		</Head>
 		<h1>Blog</h1>
 		<ul>
 			{
